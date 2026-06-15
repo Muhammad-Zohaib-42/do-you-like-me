@@ -35,7 +35,7 @@ function generateCircles() {
     div.className = "circle";
     div.style.height = Math.floor(Math.random() * 30) + "px";
     div.style.left = Math.floor(Math.random() * 100) + "%";
-    div.innerText = "❤︎"
+    div.innerHTML = "<img src='./images-removebg-preview.png' alt='love'>" 
     div.style.animationDuration = Math.floor(Math.random() * 5) + "s";
 
     fragment.appendChild(div);

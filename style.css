@@ -73,11 +73,18 @@ a {
     bottom: -20px;
     z-index: 1000;
     animation: moveToTop 1.5s 0s linear forwards;
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
 }
 
 @keyframes moveToTop {
     to {
-        transform: translateY(-650px);
+        transform: translateY(-750px);
         opacity: 1;
     }
 }
+
