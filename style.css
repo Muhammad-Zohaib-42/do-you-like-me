@@ -88,3 +88,9 @@ a {
     }
 }
 
+@media (max-width: 768px) {
+    .card {
+        width: 95%;
+        margin-inline: auto;
+    }
+}
